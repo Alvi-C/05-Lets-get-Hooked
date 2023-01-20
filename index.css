@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.header{
+    display: flex;
+    background-color: rgb(242, 242, 242);
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.nav-item{
+    display: flex;
+}
+.nav-item > ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item > ul > li{
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+
+.logo{
+    width: 120px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.search-container{
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+
+.search-input{
+    width: 170px;
+    height: 10px;
+    padding: 10px;
+    border: 2px solid rgb(141, 205, 232);
+    border-radius: 5px;
+}
+
+.search-input:focus{
+    border: 2px solid rgb(55, 146, 185);
+    outline: none;
+}
+.search-btn{
+margin-left: 5px;
+background-color: rgb(55, 146, 185);
+color: white;
+padding: 9px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.search-btn:hover{
+    background-color: rgb(17, 71, 95);
+}
+
+.card{
+    width: 300px;
+    border: .5px solid rgb(141, 205, 232);
+    padding: 10px;
+    margin: 10px;
+}
+
+.card > img{
+    width: 100%;
+}
+
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.footer > h3{
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.footer > span{
+    padding-bottom: 10px;
+    font-size: small;
+}
